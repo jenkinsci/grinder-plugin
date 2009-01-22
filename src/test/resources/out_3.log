@@ -1,0 +1,547 @@
+1/19/09 9:26:30 PM (process eivindw-0): The Grinder version 3.1
+1/19/09 9:26:30 PM (process eivindw-0): Apple Inc. Java HotSpot(TM) Client VM 1.5.0_16-133 on Mac OS X i386 10.5.6
+1/19/09 9:26:30 PM (process eivindw-0): time zone is CET (+0100)
+1/19/09 9:26:30 PM (process eivindw-0): worker process 0
+1/19/09 9:26:30 PM (process eivindw-0): executing "grinder.py" using Jython 2.2.1
+1/19/09 9:26:31 PM (process eivindw-0): registered plug-in net.grinder.plugin.http.HTTPPlugin
+1/19/09 9:26:31 PM (process eivindw-0): starting threads
+1/19/09 9:26:31 PM (thread 0): about to do 10 runs
+1/19/09 9:26:31 PM (thread 8): about to do 10 runs
+1/19/09 9:26:31 PM (thread 6): about to do 10 runs
+1/19/09 9:26:31 PM (thread 3): about to do 10 runs
+1/19/09 9:26:31 PM (thread 5): about to do 10 runs
+1/19/09 9:26:31 PM (thread 9): about to do 10 runs
+1/19/09 9:26:31 PM (thread 4): about to do 10 runs
+1/19/09 9:26:31 PM (thread 1): about to do 10 runs
+1/19/09 9:26:31 PM (thread 2): about to do 10 runs
+1/19/09 9:26:31 PM (thread 7): about to do 10 runs
+1/19/09 9:26:31 PM (process eivindw-0): start time is 1232396791365 ms since Epoch
+1/19/09 9:26:31 PM (thread 4 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 8 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 2 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 5 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 6 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 3 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 7 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:31 PM (thread 9 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:32 PM (thread 1 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:32 PM (thread 0 run 0 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:32 PM (thread 4 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:32 PM (thread 8 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:33 PM (thread 5 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:33 PM (thread 2 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:33 PM (thread 3 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:33 PM (thread 7 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:34 PM (thread 4 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:34 PM (thread 8 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:34 PM (thread 5 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:34 PM (thread 2 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:34 PM (thread 3 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:34 PM (thread 7 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:34 PM (thread 6 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:34 PM (thread 9 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:34 PM (thread 8 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:34 PM (thread 0 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:34 PM (thread 5 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:34 PM (thread 4 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:34 PM (thread 1 run 0 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:34 PM (thread 3 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:35 PM (thread 7 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:35 PM (thread 6 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:35 PM (thread 9 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:35 PM (thread 0 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:35 PM (thread 1 run 0 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:35 PM (thread 2 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:35 PM (thread 8 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:35 PM (thread 5 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:35 PM (thread 3 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:35 PM (thread 7 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:35 PM (thread 6 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:35 PM (thread 4 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:35 PM (thread 9 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:35 PM (thread 0 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:35 PM (thread 2 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:35 PM (thread 6 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:36 PM (thread 9 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:36 PM (thread 0 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:36 PM (thread 8 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 1 run 0 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:36 PM (thread 5 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 3 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 7 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 4 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 2 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 1 run 0 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:36 PM (thread 9 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 6 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:36 PM (thread 8 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:36 PM (thread 0 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:38 PM (thread 8 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 1 run 1 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:38 PM (thread 3 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 7 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 3 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 7 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 4 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 5 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 8 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:38 PM (thread 2 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 9 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 6 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 3 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:38 PM (thread 4 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 5 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 2 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 9 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 6 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:38 PM (thread 7 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:38 PM (thread 3 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:38 PM (thread 0 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 1 run 1 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:38 PM (thread 8 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:39 PM (thread 4 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:39 PM (thread 5 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:39 PM (thread 9 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:39 PM (thread 0 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:39 PM (thread 7 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:39 PM (thread 2 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:39 PM (thread 1 run 1 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:39 PM (thread 6 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:39 PM (thread 4 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:39 PM (thread 5 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:39 PM (thread 9 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:39 PM (thread 2 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:39 PM (thread 0 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:39 PM (thread 8 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 7 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 6 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:40 PM (thread 0 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:40 PM (thread 1 run 1 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:40 PM (thread 1 run 1 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:40 PM (thread 4 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 5 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 9 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 2 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 3 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 6 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 1 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:40 PM (thread 0 run 2 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:41 PM (thread 8 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:41 PM (thread 7 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:41 PM (thread 8 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:41 PM (thread 7 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:41 PM (thread 8 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:41 PM (thread 7 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:41 PM (thread 8 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:41 PM (thread 7 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:41 PM (thread 7 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:41 PM (thread 8 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:42 PM (thread 9 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 4 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 9 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:42 PM (thread 4 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:42 PM (thread 2 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 5 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 3 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 6 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 0 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 1 run 2 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:42 PM (thread 9 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 2 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 5 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 3 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 6 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 0 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 1 run 2 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 4 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 9 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:43 PM (thread 8 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:43 PM (thread 2 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 5 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 7 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:43 PM (thread 3 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 6 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 0 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:43 PM (thread 8 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:43 PM (thread 1 run 2 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:44 PM (thread 4 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 7 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:44 PM (thread 2 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 5 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 3 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 6 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 0 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 1 run 2 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 8 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:44 PM (thread 9 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:44 PM (thread 7 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:44 PM (thread 8 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 7 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:44 PM (thread 4 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:44 PM (thread 0 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:44 PM (thread 6 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:44 PM (thread 2 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:44 PM (thread 1 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:44 PM (thread 3 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:45 PM (thread 8 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:45 PM (thread 7 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:45 PM (thread 9 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:45 PM (thread 9 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:45 PM (thread 9 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:46 PM (thread 9 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:46 PM (thread 4 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:46 PM (thread 4 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:46 PM (thread 9 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:46 PM (thread 4 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:46 PM (thread 4 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:46 PM (thread 0 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:46 PM (thread 0 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:46 PM (thread 0 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:47 PM (thread 6 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 2 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 6 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:47 PM (thread 1 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 0 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:47 PM (thread 2 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:47 PM (thread 8 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 3 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 4 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:47 PM (thread 7 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 1 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:47 PM (thread 6 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:47 PM (thread 8 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:47 PM (thread 3 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:47 PM (thread 7 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:47 PM (thread 2 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:47 PM (thread 9 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:47 PM (thread 6 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:47 PM (thread 1 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:47 PM (thread 0 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:47 PM (thread 4 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:48 PM (thread 8 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:48 PM (thread 3 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:48 PM (thread 9 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:48 PM (thread 4 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:48 PM (thread 2 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:48 PM (thread 7 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:48 PM (thread 3 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:48 PM (thread 1 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:48 PM (thread 8 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:48 PM (thread 6 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:48 PM (thread 9 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:48 PM (thread 5 run 3 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:48 PM (thread 7 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:48 PM (thread 4 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:48 PM (thread 0 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:48 PM (thread 0 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:48 PM (thread 4 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:48 PM (thread 9 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:49 PM (thread 2 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 3 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 1 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 0 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:49 PM (thread 8 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 7 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 0 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:49 PM (thread 6 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:49 PM (thread 5 run 3 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:49 PM (thread 9 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 6 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:49 PM (thread 5 run 3 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:49 PM (thread 4 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 0 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:49 PM (thread 6 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:49 PM (thread 5 run 3 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:49 PM (thread 6 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:49 PM (thread 5 run 3 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:50 PM (thread 6 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:50 PM (thread 5 run 4 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:51 PM (thread 3 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 2 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 3 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:51 PM (thread 2 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:51 PM (thread 1 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 8 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 7 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 3 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:51 PM (thread 1 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:51 PM (thread 8 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:51 PM (thread 7 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:51 PM (thread 3 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:51 PM (thread 2 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:51 PM (thread 9 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 4 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 0 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 6 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:51 PM (thread 5 run 4 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:52 PM (thread 8 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 1 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 9 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:52 PM (thread 4 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:52 PM (thread 0 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:52 PM (thread 6 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:52 PM (thread 5 run 4 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:52 PM (thread 2 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:52 PM (thread 7 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 8 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:52 PM (thread 9 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 3 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:52 PM (thread 1 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:52 PM (thread 4 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 0 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 6 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:52 PM (thread 7 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:53 PM (thread 9 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:53 PM (thread 4 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:53 PM (thread 5 run 4 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:53 PM (thread 0 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:53 PM (thread 6 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:53 PM (thread 2 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 8 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 3 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:53 PM (thread 1 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 5 run 4 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:53 PM (thread 3 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:53 PM (thread 6 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 0 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 4 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 9 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 7 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:53 PM (thread 3 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:53 PM (thread 3 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:54 PM (thread 5 run 5 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:54 PM (thread 3 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:54 PM (thread 2 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:55 PM (thread 2 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:55 PM (thread 8 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:55 PM (thread 8 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:55 PM (thread 2 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:55 PM (thread 1 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:55 PM (thread 1 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:55 PM (thread 2 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:55 PM (thread 8 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:55 PM (thread 1 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:55 PM (thread 8 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:55 PM (thread 0 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:55 PM (thread 6 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 0 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 6 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 1 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:56 PM (thread 7 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 4 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 9 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 2 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:56 PM (thread 3 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 0 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:56 PM (thread 5 run 5 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 7 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 4 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 9 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 3 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 5 run 5 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:56 PM (thread 8 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:56 PM (thread 0 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:56 PM (thread 6 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:56 PM (thread 4 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:56 PM (thread 1 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:56 PM (thread 2 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:56 PM (thread 7 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:56 PM (thread 9 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:57 PM (thread 6 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:57 PM (thread 3 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:57 PM (thread 2 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:57 PM (thread 4 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:57 PM (thread 5 run 5 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:57 PM (thread 7 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:57 PM (thread 0 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:57 PM (thread 9 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:57 PM (thread 3 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:57 PM (thread 6 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:57 PM (thread 2 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:57 PM (thread 1 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:57 PM (thread 2 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:57 PM (thread 1 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:58 PM (thread 8 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:58 PM (thread 4 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:58 PM (thread 3 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:58 PM (thread 7 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:58 PM (thread 9 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:58 PM (thread 8 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:58 PM (thread 5 run 5 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:58 PM (thread 1 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:58 PM (thread 2 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:59 PM (thread 0 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:59 PM (thread 1 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:59 PM (thread 0 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:59 PM (thread 6 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:59 PM (thread 8 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:59 PM (thread 6 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:26:59 PM (thread 5 run 6 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:59 PM (thread 0 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:59 PM (thread 8 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:59 PM (thread 1 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:26:59 PM (thread 6 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:26:59 PM (thread 0 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:26:59 PM (thread 7 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:26:59 PM (thread 3 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:00 PM (thread 6 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:00 PM (thread 7 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 9 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:00 PM (thread 3 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 4 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:00 PM (thread 8 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:00 PM (thread 9 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 7 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:00 PM (thread 0 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:00 PM (thread 4 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 3 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:00 PM (thread 2 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:00 PM (thread 9 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:00 PM (thread 7 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:00 PM (thread 1 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:00 PM (thread 5 run 6 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:00 PM (thread 6 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:00 PM (thread 2 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 1 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 5 run 6 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:00 PM (thread 3 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:00 PM (thread 9 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:00 PM (thread 4 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:01 PM (thread 2 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:01 PM (thread 7 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:01 PM (thread 1 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:01 PM (thread 6 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:01 PM (thread 8 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:01 PM (thread 5 run 6 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:01 PM (thread 6 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:01 PM (thread 8 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:01 PM (thread 2 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:01 PM (thread 4 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:01 PM (thread 1 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:01 PM (thread 5 run 6 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:01 PM (thread 0 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:01 PM (thread 3 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:01 PM (thread 6 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:01 PM (thread 9 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:01 PM (thread 0 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:01 PM (thread 6 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:01 PM (thread 8 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:02 PM (thread 2 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:02 PM (thread 8 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:02 PM (thread 1 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:02 PM (thread 4 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:02 PM (thread 0 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:02 PM (thread 5 run 7 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:02 PM (thread 6 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:02 PM (thread 0 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:02 PM (thread 0 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:02 PM (thread 3 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:02 PM (thread 9 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:02 PM (thread 3 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:02 PM (thread 9 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:03 PM (thread 3 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:03 PM (thread 8 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:03 PM (thread 3 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:03 PM (thread 9 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:03 PM (thread 9 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:03 PM (thread 7 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:03 PM (thread 7 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:03 PM (thread 2 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:03 PM (thread 3 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:03 PM (thread 2 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:03 PM (thread 7 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:03 PM (thread 9 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:04 PM (thread 4 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:04 PM (thread 1 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:04 PM (thread 7 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:04 PM (thread 4 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:04 PM (thread 1 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:04 PM (thread 2 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:04 PM (thread 6 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:04 PM (thread 5 run 7 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:04 PM (thread 0 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:04 PM (thread 4 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:04 PM (thread 6 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:04 PM (thread 2 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:04 PM (thread 5 run 7 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:04 PM (thread 0 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:04 PM (thread 1 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:04 PM (thread 4 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:04 PM (thread 3 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:04 PM (thread 7 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:05 PM (thread 6 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:05 PM (thread 8 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:05 PM (thread 5 run 7 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:05 PM (thread 9 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:05 PM (thread 1 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:05 PM (thread 0 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:05 PM (thread 3 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:05 PM (thread 8 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:05 PM (thread 9 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:05 PM (thread 6 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:05 PM (thread 6 test 5): finished 10 runs
+1/19/09 9:27:05 PM (thread 5 run 7 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:05 PM (thread 0 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:05 PM (thread 0 test 5): finished 10 runs
+1/19/09 9:27:05 PM (thread 2 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:05 PM (thread 4 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:05 PM (thread 3 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:05 PM (thread 7 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:05 PM (thread 1 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:05 PM (thread 7 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:05 PM (thread 9 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:05 PM (thread 3 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:05 PM (thread 3 test 5): finished 10 runs
+1/19/09 9:27:05 PM (thread 8 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:06 PM (thread 5 run 8 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:06 PM (thread 7 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:06 PM (thread 9 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:06 PM (thread 9 test 5): finished 10 runs
+1/19/09 9:27:06 PM (thread 7 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:06 PM (thread 7 test 5): finished 10 runs
+1/19/09 9:27:06 PM (thread 8 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:06 PM (thread 8 test 5): finished 10 runs
+1/19/09 9:27:06 PM (thread 2 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:06 PM (thread 2 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:06 PM (thread 2 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:07 PM (thread 4 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:07 PM (thread 1 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:07 PM (thread 4 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:07 PM (thread 1 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:07 PM (thread 2 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:07 PM (thread 2 test 5): finished 10 runs
+1/19/09 9:27:07 PM (thread 5 run 8 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:07 PM (thread 4 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:07 PM (thread 5 run 8 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:07 PM (thread 4 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:07 PM (thread 4 test 5): finished 10 runs
+1/19/09 9:27:07 PM (thread 1 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:07 PM (thread 1 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:07 PM (thread 1 test 5): finished 10 runs
+1/19/09 9:27:07 PM (thread 5 run 8 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:07 PM (thread 5 run 8 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:08 PM (thread 5 run 9 test 1): http://www.bekk.no/ -> 200 OK, 30152 bytes
+1/19/09 9:27:08 PM (thread 5 run 9 test 2): http://www.bekk.no/Sok/?Search=waaler -> 200 OK, 29175 bytes
+1/19/09 9:27:08 PM (thread 5 run 9 test 3): http://www.bekk.no/English -> 301 Moved Permanently, 126 bytes [Redirect, ensure the next URL is /English/]
+1/19/09 9:27:08 PM (thread 5 run 9 test 4): http://www.bekk.no/aktuelt/nyheter/BEKK-apner-avdelingskontor-i-Trondheim/ -> 200 OK, 42491 bytes
+1/19/09 9:27:08 PM (thread 5 run 9 test 5): http://www.bekk.no/teknologi/brukergrensesnitt/ -> 200 OK, 31369 bytes
+1/19/09 9:27:08 PM (thread 5 test 5): finished 10 runs
+1/19/09 9:27:08 PM (process eivindw-0): Final statistics for this process:
+             Tests        Errors       Mean Test    Test Time    Mean         Response     Response     Mean time to Mean time to Mean time to 
+                                       Time (ms)    Standard     response     bytes per    errors       resolve host establish    first byte   
+                                                    Deviation    length       second                                 connection                
+                                                    (ms)                                                                                       
+
+Test 1       100          0            698.49       453.30       30152.00     °            0            1.39         69.67        344.75        "Frontpage"
+Test 2       100          0            1717.36      580.06       29175.00     °            0            0.00         0.00         1583.85       "Search"
+Test 3       100          0            284.55       309.91       126.00       °            0            0.00         0.00         284.20        "English"
+Test 4       100          0            468.92       218.33       42491.00     °            0            0.00         0.00         344.14        "Trondheim"
+Test 5       100          0            383.90       213.65       31369.00     °            0            0.00         0.00         285.86        "UI design"
+
+Totals       500          0            710.64       646.79       26662.60     °            0            0.28         13.93        568.56       
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+1/19/09 9:27:08 PM (process eivindw-0): finished

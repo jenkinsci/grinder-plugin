@@ -1,0 +1,23 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	<l:layout xmlns:g="/hudson/plugins/grinder/tags">
+		<st:include it="${it.build}" page="sidepanel.jelly" />
+		<l:main-panel>
+	      <h1>Grinder Build Report</h1>
+	      <div style="width: 800px; margin-left: auto; margin-right: auto;">
+	         <img src="testGraph" height="400" width="800"/>
+	      </div>
+	      <div>
+            <table border="1px" class="pane sortable">
+               <g:tableHeader />
+               <g:tableFooter it="${it.totals}"/>
+               <tbody>
+                  <j:forEach var="test" items="${it.tests}">
+                     <g:tableTest it="${test}"/>
+                  </j:forEach>
+               </tbody>
+            </table>
+         </div>
+	   </l:main-panel>
+	</l:layout>
+</j:jelly>

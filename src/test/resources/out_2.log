@@ -1,0 +1,26 @@
+4/11/08 2:07:01 PM (process 270-0): The Grinder version 3.0.1
+4/11/08 2:07:01 PM (process 270-0): Sun Microsystems Inc. Java HotSpot(TM) Client VM 10.0-b19 on Windows XP x86 5.1
+4/11/08 2:07:01 PM (process 270-0): time zone is CEST (+0200)
+4/11/08 2:07:01 PM (process 270-0): executing "script1.py" using Jython 2.2.1
+4/11/08 2:07:01 PM (process 270-0): registered plug-in net.grinder.plugin.http.HTTPPlugin
+4/11/08 2:07:01 PM (process 270-0): starting threads
+4/11/08 2:07:01 PM (thread 0): sleeping for 1152 ms
+4/11/08 2:07:03 PM (thread 0): about to do 1 run
+4/11/08 2:07:03 PM (process 270-0): start time is 1207915623108 ms since Epoch
+4/11/08 2:07:03 PM (thread 0 run 0 test 101): sleeping for 5064 ms
+4/11/08 2:07:08 PM (thread 0 test 101): finished 1 run
+4/11/08 2:07:08 PM (process 270-0): Final statistics for this process:
+             Tests        Errors       Mean Test    Test Time    Mean         Response     Response     Mean time to Mean time to Mean time to 
+                                       Time (ms)    Standard     response     bytes per    errors       resolve host establish    first byte   
+                                                    Deviation    length       second                                 connection                
+                                                    (ms)                                                                                       
+
+Test 101     1            0            47.00        0.00         1518.00      ?            1            16.00        16.00        47.00         "Hent forside (HTML) med pålogging"
+
+Totals       1            0            47.00        0.00         1518.00      ?            1            16.00        16.00        47.00        
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+4/11/08 2:07:08 PM (process 270-0): finished

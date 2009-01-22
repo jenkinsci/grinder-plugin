@@ -1,0 +1,24 @@
+1/7/09 3:56:49 PM (thread 3 run 9 test 601): sleeping for 2598 ms
+1/7/09 3:56:52 PM (thread 3 test 601): finished 10 runs
+1/7/09 3:56:52 PM (process asdf-0): Final statistics for this process:
+             Tests        Errors       Mean Test    Test Time    Mean         Response     Response     Mean time to Mean time to Mean time to 
+                                       Time (ms)    Standard     response     bytes per    errors       resolve host establish    first byte   
+                                                    Deviation    length       second                                 connection                
+                                                    (ms)                                                                                       
+
+Test 101     50           0            17407.60     15017.92     67586.60     ?            0            1.60         4.08         4317.00       "Hent forside (HTML) med pålogging"
+Test 201     30           0            1311.03      1509.49      26856.77     ?            0            0.00         0.00         1203.63       "Hent fagområder"
+Test 301     20           0            1807.90      2233.07      22882.40     ?            0            0.00         0.00         1730.60       "Hent nyhet A"
+Test 401     10           0            903.60       652.50       24198.00     ?            0            0.00         0.00         772.30        "Hent nyhet B"
+Test 501     10           0            867.60       1436.25      23326.00     ?            0            0.00         0.00         795.60        "Hent nyhet C"
+Test 601     10           0            953.20       1535.51      22879.00     ?            0            0.00         0.00         823.60        "Hent nyhet D"
+Test 701     10           0            692.40       930.25       21385.50     ?            0            0.00         0.00         659.50        "Åpne ansattsøk"
+Test 801     10           0            2222.60      1522.19      37542.50     ?            0            0.00         0.00         2016.10       "Utfør ansattsøk - fornavn Eivind"
+
+Totals       150          0            6681.75      11597.56     39573.27     ?            0            0.53         1.36         2248.28      
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      
+1/7/09 3:56:52 PM (process asdf-0): finished

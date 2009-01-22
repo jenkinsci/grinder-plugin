@@ -1,0 +1,25 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define"
+	xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form"
+	xmlns:e="/hudson/plugins/grinder/tags">
+   <tr>
+      <td>
+         <j:choose>
+            <j:when test="${!empty id}">
+               <a href="${link}">${id}</a>
+            </j:when>
+            <j:otherwise>
+               ${it.id}
+            </j:otherwise>
+         </j:choose>
+      </td>
+      <td align="right">${it.testCount}</td>
+      <td align="right">${it.errorCount}</td>
+      <td align="right">${it.meanTime}</td>
+      <td align="right">${it.stdDev}</td>
+      <td align="right">${it.meanRespLength}</td>
+      <td align="right">${it.respErrorCount}</td>
+      <j:if test="${empty id}">
+         <td>${it.name}</td>
+      </j:if>
+   </tr>
+</j:jelly>
