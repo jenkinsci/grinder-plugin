@@ -67,6 +67,13 @@ public class TestGrinderResultReader extends TestCase {
       assertTest(rr.getTotals(), "Totals", 500, 0, 710.64, 646.79, 26662.6, 0.0, 0, 0.28, 13.93, 568.56, "");
    }
 
+   public void testSeleniumLogFile() throws Exception {
+      InputStream is = getClass().getResourceAsStream("/out_Selenium1-0.log");
+
+      ResultReader rr = new ResultReader(is, System.out);
+      List<Test> tests = rr.getTests();
+   }
+
    public void testNullInput() throws Exception {
       try {
          new ResultReader(null, System.out);

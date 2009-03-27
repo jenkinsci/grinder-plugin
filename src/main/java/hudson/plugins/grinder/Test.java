@@ -14,6 +14,7 @@ public class Test {
    public static final String ERROR_COUNT = "Error Count";
    public static final String MEAN_TEST_TIME = "Mean Test Time";
    public static final String TEST_TIME_STANDARD_DEVIATION = "Test Time Standard Deviation";
+   public static final String TPS = "TPS";
    public static final String RESPONSE_BYTES_PER_SECOND = "Response Bytes Per Second";
    public static final String RESPONSE_ERROR_COUNT = "Response Error Count";
    public static final String RESOLVE_HOST_MEAN_TIME = "Resolve Host Mean Time";
@@ -30,6 +31,7 @@ public class Test {
       int errorCount,
       double meanTime,
       double stdDev,
+      double tps,
       double meanRespLength,
       double respBytesPrSecond,
       int respErrorCount,
@@ -43,6 +45,7 @@ public class Test {
       values.put(ERROR_COUNT, errorCount);
       values.put(MEAN_TEST_TIME, meanTime);
       values.put(TEST_TIME_STANDARD_DEVIATION, stdDev);
+      values.put(TPS, tps);
       values.put(MEAN_RESPONSE_LENGTH, meanRespLength);
       values.put(RESPONSE_BYTES_PER_SECOND, respBytesPrSecond);
       values.put(RESPONSE_ERROR_COUNT, respErrorCount);

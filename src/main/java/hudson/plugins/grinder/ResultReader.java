@@ -23,6 +23,7 @@ public class ResultReader {
 
    private static final String PATTERN_TEST = "Test \\d.*";
    private static final String PATTERN_TOTALS = "Totals .*";
+   private static final String PATTERN_TPS = " TPS ";
 
    /**
     * Construct a result reader for grinder out log files.
@@ -44,14 +45,16 @@ public class ResultReader {
          tests = new ArrayList<Test>();
       }
       try {
-         Scanner scanner = new Scanner(IOUtils.toString(is));
+         String str = IOUtils.toString(is);
+         boolean hasTPS = str.contains(PATTERN_TPS);
+         Scanner scanner = new Scanner(str);
          String match = scanner.findWithinHorizon(PATTERN_TEST, 0);
          while (match != null) {
-            tests.add(readTest(match, false));
+            tests.add(readTest(match, false, hasTPS));
             match = scanner.findWithinHorizon(PATTERN_TEST, 0);
          }
          match = scanner.findWithinHorizon(PATTERN_TOTALS, 0);
-         totals = readTest(match, true);
+         totals = readTest(match, true, hasTPS);
       } catch (IOException e) {
          String errMsg = "Problem parsing Grinder out log file";
          hudsonConsoleWriter.println(errMsg + ": " + e.getMessage());
@@ -68,16 +71,24 @@ public class ResultReader {
       return totals;
    }
 
-   private Test readTest(String testLine, boolean isTotals) {
+   private Test readTest(String testLine, boolean isTotals, boolean hasTPS) {
       Scanner scanner = new Scanner(testLine).useDelimiter("\\s{2,}").useLocale(Locale.ENGLISH);
       String id = scanner.next();
       int testCount = scanner.nextInt();
       int errorCount = scanner.nextInt();
       double meanTestTime = scanner.nextDouble();
       double testStdDevTime = scanner.nextDouble();
+      double tps = 0.0;
+      if(hasTPS) {
+         tps = scanner.nextDouble();
+      }
       double meanRespLength = scanner.nextDouble();
       double respBytesPrSecond = 0.0;
-      scanner.next(); // reported as '?' in log
+      if(scanner.hasNextDouble()) {
+         respBytesPrSecond = scanner.nextDouble();
+      } else {
+         scanner.next(); // reported as '?' in log
+      }
       int respErrorCount = scanner.nextInt();
       double resolveHostMeanTime = scanner.nextDouble();
       double establishConnMeanTime = scanner.nextDouble();
@@ -90,6 +101,7 @@ public class ResultReader {
          errorCount,
          meanTestTime,
          testStdDevTime,
+         tps,
          meanRespLength,
          respBytesPrSecond,
          respErrorCount,
