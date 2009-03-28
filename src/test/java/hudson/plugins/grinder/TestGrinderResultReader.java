@@ -71,7 +71,21 @@ public class TestGrinderResultReader extends TestCase {
       InputStream is = getClass().getResourceAsStream("/out_Selenium1-0.log");
 
       ResultReader rr = new ResultReader(is, System.out);
-      List<Test> tests = rr.getTests();
+      
+      assertTest(rr.getTotals(), "Totals", 1, 0, 125.00, 0.00, 7604.00, 20277.33, 0, 0.00, 31.00, 109.00, "");
+   }
+
+   public void testJavaLogFile() throws Exception {
+      InputStream is = getClass().getResourceAsStream("/out_java-0.log");
+
+      ResultReader rr = new ResultReader(is, System.out);
+
+      Test totals = rr.getTotals();
+
+      assertEquals(100, totals.getTestCount());
+      assertEquals(0, totals.getErrorCount());
+      assertEquals(0.54, totals.getMeanTime());
+      assertEquals(1.96, totals.getStdDev());
    }
 
    public void testNullInput() throws Exception {

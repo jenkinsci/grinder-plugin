@@ -78,37 +78,50 @@ public class ResultReader {
       int errorCount = scanner.nextInt();
       double meanTestTime = scanner.nextDouble();
       double testStdDevTime = scanner.nextDouble();
-      double tps = 0.0;
-      if(hasTPS) {
-         tps = scanner.nextDouble();
-      }
-      double meanRespLength = scanner.nextDouble();
-      double respBytesPrSecond = 0.0;
-      if(scanner.hasNextDouble()) {
-         respBytesPrSecond = scanner.nextDouble();
-      } else {
-         scanner.next(); // reported as '?' in log
-      }
-      int respErrorCount = scanner.nextInt();
-      double resolveHostMeanTime = scanner.nextDouble();
-      double establishConnMeanTime = scanner.nextDouble();
-      double firstByteMeanTime = scanner.nextDouble();
-      String name = isTotals ? "" : scanner.next().replaceAll("\"", "");
+      if (scanner.hasNextDouble()) {
+         double tps = 0.0;
+         if (hasTPS) {
+            tps = scanner.nextDouble();
+         }
+         double meanRespLength = scanner.nextDouble();
+         double respBytesPrSecond = 0.0;
+         if (scanner.hasNextDouble()) {
+            respBytesPrSecond = scanner.nextDouble();
+         } else {
+            scanner.next(); // reported as '?' in log
+         }
+         int respErrorCount = scanner.nextInt();
+         double resolveHostMeanTime = scanner.nextDouble();
+         double establishConnMeanTime = scanner.nextDouble();
+         double firstByteMeanTime = scanner.nextDouble();
+         String name = isTotals ? "" : scanner.next().replaceAll("\"", "");
 
-      return new Test(
-         id,
-         testCount,
-         errorCount,
-         meanTestTime,
-         testStdDevTime,
-         tps,
-         meanRespLength,
-         respBytesPrSecond,
-         respErrorCount,
-         resolveHostMeanTime,
-         establishConnMeanTime,
-         firstByteMeanTime,
-         name
-      );
+         return new Test(
+            id,
+            testCount,
+            errorCount,
+            meanTestTime,
+            testStdDevTime,
+            tps,
+            meanRespLength,
+            respBytesPrSecond,
+            respErrorCount,
+            resolveHostMeanTime,
+            establishConnMeanTime,
+            firstByteMeanTime,
+            name
+         );
+      } else {
+         String name = isTotals ? "" : scanner.next().replaceAll("\"", "");
+
+         return new Test(
+            id,
+            testCount,
+            errorCount,
+            meanTestTime,
+            testStdDevTime,
+            name
+         );
+      }
    }
 }

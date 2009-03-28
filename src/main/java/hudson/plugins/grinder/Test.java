@@ -39,12 +39,9 @@ public class Test {
       double establishConnMeanTime,
       double firstByteMeanTime,
       String name) {
-      
-      this.id = id;
-      values.put(TEST_COUNT, testCount);
-      values.put(ERROR_COUNT, errorCount);
-      values.put(MEAN_TEST_TIME, meanTime);
-      values.put(TEST_TIME_STANDARD_DEVIATION, stdDev);
+
+      this(id, testCount, errorCount, meanTime, stdDev, name);
+
       values.put(TPS, tps);
       values.put(MEAN_RESPONSE_LENGTH, meanRespLength);
       values.put(RESPONSE_BYTES_PER_SECOND, respBytesPrSecond);
@@ -52,6 +49,14 @@ public class Test {
       values.put(RESOLVE_HOST_MEAN_TIME, resolveHostMeanTime);
       values.put(ESTABLISH_CONNECTION_MEAN_TIME, establishConnMeanTime);
       values.put(FIRST_BYTE_MEAN_TIME, firstByteMeanTime);
+   }
+
+   public Test(String id, int testCount, int errorCount, double meanTime, double stdDev, String name) {
+      this.id = id;
+      values.put(TEST_COUNT, testCount);
+      values.put(ERROR_COUNT, errorCount);
+      values.put(MEAN_TEST_TIME, meanTime);
+      values.put(TEST_TIME_STANDARD_DEVIATION, stdDev);
       this.name = name;
    }
 
@@ -73,6 +78,10 @@ public class Test {
 
    public Number getStdDev() {
       return values.get(TEST_TIME_STANDARD_DEVIATION);
+   }
+
+   public Number getTPS() {
+      return values.get(TPS);
    }
 
    public Number getMeanRespLength() {
