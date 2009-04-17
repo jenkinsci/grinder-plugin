@@ -1,0 +1,13 @@
+             Tests        Errors       Mean Test    Test Time    TPS          
+                                       Time (ms)    Standard                  
+                                                    Deviation                 
+                                                    (ms)                      
+
+Test 1      1            0            1.00         0.00         8.13          "testEquals"
+
+Totals       1           0            0.88         1.65         8.13         
+
+  Tests resulting in error only contribute to the Errors column.          
+  Statistics for individual tests can be found in the data file, including
+  (possibly incomplete) statistics for erroneous tests. Composite tests   
+  are marked with () and not included in the totals.                      

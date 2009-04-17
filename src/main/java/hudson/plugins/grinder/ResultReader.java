@@ -78,11 +78,11 @@ public class ResultReader {
       int errorCount = scanner.nextInt();
       double meanTestTime = scanner.nextDouble();
       double testStdDevTime = scanner.nextDouble();
+      double tps = 0.0;
+      if (hasTPS) {
+         tps = scanner.nextDouble();
+      }
       if (scanner.hasNextDouble()) {
-         double tps = 0.0;
-         if (hasTPS) {
-            tps = scanner.nextDouble();
-         }
          double meanRespLength = scanner.nextDouble();
          double respBytesPrSecond = 0.0;
          if (scanner.hasNextDouble()) {

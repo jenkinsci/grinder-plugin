@@ -88,6 +88,19 @@ public class TestGrinderResultReader extends TestCase {
       assertEquals(1.96, totals.getStdDev());
    }
 
+   public void testOutLogFile() throws Exception {
+      InputStream is = getClass().getResourceAsStream("/out.log");
+
+      ResultReader rr = new ResultReader(is, System.out);
+
+      Test totals = rr.getTotals();
+
+      assertEquals(1, totals.getTestCount());
+      assertEquals(0, totals.getErrorCount());
+      assertEquals(0.88, totals.getMeanTime());
+      assertEquals(1.65, totals.getStdDev());
+   }
+
    public void testNullInput() throws Exception {
       try {
          new ResultReader(null, System.out);
