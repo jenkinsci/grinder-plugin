@@ -11,5 +11,5 @@
   <packaging>hpi</packaging>
   <version>1.3-SNAPSHOT</version>
   <name>Hudson Grinder plugin</name>
-  <url>http://hudson.gotdns.com/wiki/display/HUDSON/Grinder+Plugin</url>
+  <url>http://wiki.hudson-ci.org/display/HUDSON/Grinder+Plugin</url>
 </project>
