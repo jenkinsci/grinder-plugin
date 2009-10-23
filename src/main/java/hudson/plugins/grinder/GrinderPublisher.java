@@ -1,8 +1,12 @@
 package hudson.plugins.grinder;
 
+import hudson.Extension;
 import hudson.Launcher;
 import hudson.model.*;
+import hudson.tasks.BuildStepDescriptor;
+import hudson.tasks.BuildStepMonitor;
 import hudson.tasks.Publisher;
+import hudson.tasks.Recorder;
 import org.kohsuke.stapler.DataBoundConstructor;
 
 import java.io.IOException;
@@ -14,7 +18,7 @@ import java.io.PrintStream;
  *
  * @author Eivind B Waaler
  */
-public class GrinderPublisher extends Publisher {
+public class GrinderPublisher extends Recorder {
 
    private String name;
 
@@ -27,18 +31,14 @@ public class GrinderPublisher extends Publisher {
       return name;
    }
 
-   public Descriptor<Publisher> getDescriptor() {
-      return DESCRIPTOR;
-   }
-
    @Override
    public boolean perform(AbstractBuild<?, ?> build, Launcher launcher, BuildListener listener)
       throws InterruptedException, IOException {
 
       PrintStream logger = listener.getLogger();
       
-      if (build.getProject().getWorkspace().child(name).exists()) {
-         InputStream is = build.getProject().getWorkspace().child(name).read();
+      if (build.getWorkspace().child(name).exists()) {
+         InputStream is = build.getWorkspace().child(name).read();
          try {
             build.addAction(new GrinderBuildAction(build, is, logger));
          } catch (GrinderParseException gpe) {
@@ -53,20 +53,29 @@ public class GrinderPublisher extends Publisher {
       return true;
    }
 
-   public Action getProjectAction(Project project) {
-      return new GrinderProjectAction(project);
+   @Override
+   public Action getProjectAction(AbstractProject<?, ?> project) {
+      return project instanceof Project ? new GrinderProjectAction((Project)project) : null;
    }
 
-   public static final Descriptor<Publisher> DESCRIPTOR = new DescriptorImpl();
+   public BuildStepMonitor getRequiredMonitorService() {
+      return BuildStepMonitor.NONE;
+   }
 
-   public static final class DescriptorImpl extends Descriptor<Publisher> {
+   @Extension
+   public static final class DescriptorImpl extends BuildStepDescriptor<Publisher> {
 
-      protected DescriptorImpl() {
+      public DescriptorImpl() {
          super(GrinderPublisher.class);
       }
 
       public String getDisplayName() {
          return GrinderPlugin.DISPLAY_NAME;
+      }
+
+      @Override
+      public boolean isApplicable(Class<? extends AbstractProject> jobType) {
+         return Project.class.isAssignableFrom(jobType);
       }
    }
 }
