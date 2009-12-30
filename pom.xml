@@ -12,4 +12,10 @@
   <version>1.3-SNAPSHOT</version>
   <name>Hudson Grinder plugin</name>
   <url>http://wiki.hudson-ci.org/display/HUDSON/Grinder+Plugin</url>
+  <developers>
+    <developer>
+      <id>eivindw</id>
+      <name>Eivind B Waaler</name>
+    </developer>
+  </developers>
 </project>
