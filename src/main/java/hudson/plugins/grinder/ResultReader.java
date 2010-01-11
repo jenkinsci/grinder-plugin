@@ -93,7 +93,7 @@ public class ResultReader {
          int respErrorCount = scanner.nextInt();
          double resolveHostMeanTime = scanner.nextDouble();
          double establishConnMeanTime = scanner.nextDouble();
-         double firstByteMeanTime = scanner.nextDouble();
+         double firstByteMeanTime = Double.valueOf(scanner.next().replaceAll("[)]",""));
          String name = isTotals ? "" : scanner.next().replaceAll("\"", "");
 
          return new Test(
