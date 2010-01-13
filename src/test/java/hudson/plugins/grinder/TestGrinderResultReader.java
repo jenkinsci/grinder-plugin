@@ -108,7 +108,21 @@ public class TestGrinderResultReader extends TestCase {
          assertEquals("Empty input stream", e.getMessage());
       }
    }
+   public void testSummaryRowLogFile() throws Exception {
+	   InputStream is = getClass().getResourceAsStream("/out_summary_rows.log");
+	   
+	   ResultReader rr = new ResultReader(is, System.out);
+	   
+	      List<Test> tests = rr.getTests();
 
+	      assertNotNull(tests);
+	      assertEquals(25, tests.size());
+
+	      assertTest(tests.get(0), "Test 10", 2, 0, 189.50, 77.50, 5346.00, 726.46, 0, 17.5, 24.0, 56.5, "GET index.html");
+	      assertTest(tests.get(1), "Test 11", 2, 0, 9.5, 2.5, 4523.0, 614.62, 0, 0.0, 0.0, 7.5, "GET screen.css");
+	   
+   }
+   
    private void assertTest(
       Test test,
       String id,
