@@ -6,6 +6,7 @@
          <td class="pane-header" title="The ID of the test/build">ID</td>
          <td class="pane-header" align="right" title="Number of tests run">#T</td>
          <td class="pane-header" align="right" title="Number of errors">#E</td>
+         <td class="pane-header" align="right" title="Transaction per second">TPS</td>
          <td class="pane-header" align="right" title="Mean test time (in ms)">MT (ms)</td>
          <td class="pane-header" align="right" title="Test time standard deviation (in ms)">SD (ms)</td>
          <td class="pane-header" align="right" title="Mean response length (in bytes)">MRL (bytes)</td>

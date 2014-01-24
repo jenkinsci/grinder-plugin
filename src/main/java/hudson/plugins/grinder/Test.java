@@ -42,7 +42,7 @@ public class Test {
 
       this(id, testCount, errorCount, meanTime, stdDev, tps, name);
 
-      values.put(TPS, tps);
+      //values.put(TPS, tps);
       values.put(MEAN_RESPONSE_LENGTH, meanRespLength);
       values.put(RESPONSE_BYTES_PER_SECOND, respBytesPrSecond);
       values.put(RESPONSE_ERROR_COUNT, respErrorCount);
@@ -57,6 +57,7 @@ public class Test {
       values.put(ERROR_COUNT, errorCount);
       values.put(MEAN_TEST_TIME, meanTime);
       values.put(TEST_TIME_STANDARD_DEVIATION, stdDev);
+      values.put(TPS, tps);
       this.name = name;
    }
 
@@ -80,7 +81,7 @@ public class Test {
       return values.get(TEST_TIME_STANDARD_DEVIATION);
    }
 
-   public Number getTPS() {
+   public Number getTps() {
       return values.get(TPS);
    }
 
