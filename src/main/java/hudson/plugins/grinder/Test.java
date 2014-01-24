@@ -40,7 +40,7 @@ public class Test {
       double firstByteMeanTime,
       String name) {
 
-      this(id, testCount, errorCount, meanTime, stdDev, name);
+      this(id, testCount, errorCount, meanTime, stdDev, tps, name);
 
       values.put(TPS, tps);
       values.put(MEAN_RESPONSE_LENGTH, meanRespLength);
@@ -51,7 +51,7 @@ public class Test {
       values.put(FIRST_BYTE_MEAN_TIME, firstByteMeanTime);
    }
 
-   public Test(String id, int testCount, int errorCount, double meanTime, double stdDev, String name) {
+   public Test(String id, int testCount, int errorCount, double meanTime, double stdDev, double tps, String name) {
       this.id = id;
       values.put(TEST_COUNT, testCount);
       values.put(ERROR_COUNT, errorCount);
