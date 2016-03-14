@@ -44,6 +44,12 @@ public class GrinderProjectAction extends AbstractGrinderAction {
       return project.getBuildByNumber(number).getAction(GrinderBuildAction.class);
    }
 
+    public void doTpsGraph(StaplerRequest request, StaplerResponse response) throws IOException {
+        if (shouldReloadGraph(request, response)) {
+            ChartUtil.generateGraph(request, response, createTpsGraph(), 800, 150);
+        }
+    }
+
    public void doMeanTimeGraph(StaplerRequest request, StaplerResponse response)
       throws IOException {
 
@@ -68,6 +74,10 @@ public class GrinderProjectAction extends AbstractGrinderAction {
       }
    }
 
+   private JFreeChart createTpsGraph() {
+       return createNumberBuildGraph(Test.TPS, "Transaction Per Second");
+   }
+
    private JFreeChart createMeanTimeGraph() {
       return createNumberBuildGraph(Test.MEAN_TEST_TIME, "Time (ms)");
    }
@@ -86,8 +96,12 @@ public class GrinderProjectAction extends AbstractGrinderAction {
       for (Object build : project.getBuilds()) {
          AbstractBuild abstractBuild = (AbstractBuild) build;
          if (!abstractBuild.isBuilding() && abstractBuild.getResult().isBetterOrEqualTo(Result.SUCCESS)) {
-            GrinderBuildAction action = abstractBuild.getAction(GrinderBuildAction.class);
-            builder.add(action.getTotals().getValue(valueName), valueName, new NumberOnlyBuildLabel(abstractBuild));
+             try {
+                 GrinderBuildAction action = abstractBuild.getAction(GrinderBuildAction.class);
+                 builder.add(action.getTotals().getValue(valueName), valueName, new NumberOnlyBuildLabel(abstractBuild));
+             } catch (Exception e) {
+                 continue;
+             }
          }
       }
 
