@@ -6,6 +6,7 @@
          <td class="pane-header" align="left">${it.id}</td>
          <td class="pane-header" align="right">${it.testCount}</td>
          <td class="pane-header" align="right">${it.errorCount}</td>
+         <td class="pane-header" align="right">${it.tps}</td>
          <td class="pane-header" align="right">${it.meanTime}</td>
          <td class="pane-header" align="right">${it.stdDev}</td>
          <td class="pane-header" align="right">${it.meanRespLength}</td>

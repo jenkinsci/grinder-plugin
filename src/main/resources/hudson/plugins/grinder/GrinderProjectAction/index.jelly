@@ -5,7 +5,8 @@
 		<l:main-panel>
 	      <h1>Grinder Project Report</h1>
 	      <div style="width: 800px; margin-left: auto; margin-right: auto;">
-	         <img src="meanTimeGraph" height="150" width="800"/>
+            <img src="tpsGraph" height="150" width="800"/>
+	        <img src="meanTimeGraph" height="150" width="800"/>
             <img src="stdDevGraph" height="150" width="800"/>
             <img src="meanRespLengthGraph" height="150" width="800"/>
          </div>

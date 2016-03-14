@@ -148,6 +148,7 @@ public class ResultReader {
             errorCount,
             meanTestTime,
             testStdDevTime,
+            tps,
             name
          );
       }

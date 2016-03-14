@@ -14,6 +14,7 @@
       </td>
       <td align="right">${it.testCount}</td>
       <td align="right">${it.errorCount}</td>
+      <td align="right">${it.tps}</td>
       <td align="right">${it.meanTime}</td>
       <td align="right">${it.stdDev}</td>
       <td align="right">${it.meanRespLength}</td>
